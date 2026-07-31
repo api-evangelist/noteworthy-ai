@@ -1,19 +1,50 @@
 aid: noteworthy-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noteworthy-ai.png
 name: Noteworthy AI
-description: Noteworthy AI is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Noteworthy AI is a Techstars-backed company delivering AI-powered grid inspection
+  for electric utilities. Its Noteworthy Inspect product mounts smart cameras on utility fleet
+  vehicles and applies computer-vision and machine-learning analytics to automatically identify
+  pole defects, inventory grid components, and assess distribution-infrastructure conditions during
+  routine operations, without dedicated inspection crews. Use cases span asset inventory and
+  inspection, lighting audits, storm-damage assessment, vegetation management, and joint-use
+  equipment tracking, helping utilities cut inspection operating costs while improving grid
+  reliability and safety. Customers include FirstEnergy, NextEra Energy, Exelon, Xcel Energy,
+  Alabama Power, and Georgia Power; technology partners include NVIDIA, Dell Technologies, Esri,
+  and EPRI. Noteworthy AI is SOC 2 Type II compliant. The company publishes no public API,
+  SDK, or developer surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/noteworthy-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
+- earthshot-ventures
+- connecticut-innovations
+- c2-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Computer Vision
+- Machine Learning
+- Electric Utilities
+- Grid Inspection
+- Energy
+- Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/noteworthy-ai-trust-center.yml
+- type: Compliance
+  url: https://trust.noteworthy.ai/
+- type: DomainSecurity
+  url: security/noteworthy-ai-domain-security.yml
+- type: Blog
+  url: https://noteworthy.ai/news
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/44348712
 - type: Website
   url: https://noteworthy.ai/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
