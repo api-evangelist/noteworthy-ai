@@ -1,0 +1,30 @@
+# Front Door AI Index — noteworthy-ai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: noteworthy-ai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: noteworthy.ai
+  final_host: www.noteworthy.ai
+  ownership: own
+  owner: noteworthy-ai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 20
+  host_score: 20
+  density: 24.36
+  words: 821
+  tiers:
+    agentic: 0
+    core: 19
+    model: 1
+  ambiguous: 6
+  top_terms:
+    AI: 17
+    intelligence: 4
+    smart: 2
+    artificial intelligence: 1
+    machine learning: 1
+    transformer: 1
